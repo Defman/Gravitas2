@@ -56,4 +56,6 @@ const addFluidTags = (/** @type {TagEvent.Fluid} */ event) => {
     tfcMetalFluids.forEach(fluid => {
         event.add(`forge:${fluid}`, `tfc:metal/${fluid}`)
     })
+
+    // event.add(`forge:chromium`, [`firmalife:metal/${fluid}`, `gtceu:${fluid}`])
 }
