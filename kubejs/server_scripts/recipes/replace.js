@@ -220,8 +220,8 @@ let replaceRecipes = (/** @type {Internal.RecipesEventJS} */ event) => {
   
   
   // replace iron ingot with wrought iron ingot
-  event.replaceInput({}, "minecraft:iron_ingot", "#forge/ingots/wrought_iron")
-  event.replaceInput({}, "#forge:ingots/iron", "#forge/ingots/wrought_iron")
+  event.replaceInput({}, "minecraft:iron_ingot", "#forge:ingots/wrought_iron")
+  event.replaceInput({}, "#forge:ingots/iron", "#forge:ingots/wrought_iron")
 
   // replace iron nugget with wrought iron nugget
   event.replaceInput({}, "minecraft:iron_nugget", "#forge:nuggets/wrought_iron")
