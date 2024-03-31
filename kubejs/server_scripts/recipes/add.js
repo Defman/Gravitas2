@@ -294,6 +294,8 @@ let recipeAdd = (/** @type {Internal.RecipesEventJS} */ event) => {
       item: "gtceu:glass_tube"
     }
   })
+  
+  event.shapeless('9x gtceu:wrought_iron_nugget', ['gtceu:wrought_iron_ingot'])
 
   //Create Start
 
