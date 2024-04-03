@@ -220,26 +220,26 @@ let replaceRecipes = (/** @type {Internal.RecipesEventJS} */ event) => {
   
   
   // replace iron ingot with wrought iron ingot
-  event.replaceInput({}, "minecraft:iron_ingot", "#forge:ingots/wrought_iron")
-  event.replaceInput({}, "#forge:ingots/iron", "#forge:ingots/wrought_iron")
+  // event.replaceInput({}, "minecraft:iron_ingot", "#forge:ingots/wrought_iron")
+  // event.replaceInput({}, "#forge:ingots/iron", "#forge:ingots/wrought_iron")
 
-  // replace iron nugget with wrought iron nugget
-  event.replaceInput({}, "minecraft:iron_nugget", "#forge:nuggets/wrought_iron")
-  event.replaceInput({}, "#forge:nuggets/iron", "#forge:nuggets/wrought_iron")
+  // // replace iron nugget with wrought iron nugget
+  // event.replaceInput({}, "minecraft:iron_nugget", "#forge:nuggets/wrought_iron")
+  // event.replaceInput({}, "#forge:nuggets/iron", "#forge:nuggets/wrought_iron")
 
-  // replace iron plate with wrought iron plate
-  event.replaceInput({}, "gtceu:iron_plate", "#forge:plates/wrought_iron")
-  event.replaceInput({}, "#forge:plates/iron", "#forge:plates/wrought_iron")
+  // // replace iron plate with wrought iron plate
+  // event.replaceInput({}, "gtceu:iron_plate", "#forge:plates/wrought_iron")
+  // event.replaceInput({}, "#forge:plates/iron", "#forge:plates/wrought_iron")
 
-  // replace iron block with wrought iron block
-  event.replaceInput({}, "minecraft:iron_block", "#forge:storage_blocks/wrought_iron")
-  event.replaceInput({}, "#forge:storage_blocks/iron", "#forge:storage_blocks/wrought_iron")
+  // // replace iron block with wrought iron block
+  // event.replaceInput({}, "minecraft:iron_block", "#forge:storage_blocks/wrought_iron")
+  // event.replaceInput({}, "#forge:storage_blocks/iron", "#forge:storage_blocks/wrought_iron")
 
-  // replace iron double plate with wrought iron double plate
-  event.replaceInput({}, "gtceu:double_iron_plate", "#forge:double_plates/wrought_iron")
-  event.replaceInput({}, "#forge:double_plates/iron", "#forge:double_plates/wrought_iron")
+  // // replace iron double plate with wrought iron double plate
+  // event.replaceInput({}, "gtceu:double_iron_plate", "#forge:double_plates/wrought_iron")
+  // event.replaceInput({}, "#forge:double_plates/iron", "#forge:double_plates/wrought_iron")
 
-  // replace iron rod with wrought iron rod
-  event.replaceInput({}, "gtceu:iron_rod", "#forge:rods/wrought_iron")
-  event.replaceInput({}, "#forge:rods/iron", "#forge:rods/wrought_iron")
+  // // replace iron rod with wrought iron rod
+  // event.replaceInput({}, "gtceu:iron_rod", "#forge:rods/wrought_iron")
+  // event.replaceInput({}, "#forge:rods/iron", "#forge:rods/wrought_iron")
 }
