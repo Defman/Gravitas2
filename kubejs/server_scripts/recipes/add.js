@@ -1070,5 +1070,14 @@ let recipeAdd = (/** @type {Internal.RecipesEventJS} */ event) => {
     .duration(40)
     .EUt(LV)
 
-
+    event.custom({
+      type: "createaddition:rolling",
+      input: {
+        tag: "forge:ingots/wrought_iron",
+      },
+      result: {
+        item: "gtceu:wrought_iron_rod",
+        count: 2,
+      }
+    })
 }
