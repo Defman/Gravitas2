@@ -204,7 +204,8 @@ const rollable_ingots = [
   "wrought_iron",
   "bronze",
   "brazz",
-  "tin"
+  "tin",
+  "red_alloy",
 ]
 
 let recipeAdd = (/** @type {Internal.RecipesEventJS} */ event) => {
