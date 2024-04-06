@@ -203,7 +203,8 @@ const colorMap = [
 const rollable_ingots = [
   "wrought_iron",
   "bronze",
-  "brazz"
+  "brazz",
+  "tin"
 ]
 
 let recipeAdd = (/** @type {Internal.RecipesEventJS} */ event) => {
