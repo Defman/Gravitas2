@@ -200,6 +200,12 @@ const colorMap = [
   "green"
 ]
 
+const rollable_ingots = [
+  "wrought_iron",
+  "bronze",
+  "brazz"
+]
+
 let recipeAdd = (/** @type {Internal.RecipesEventJS} */ event) => {
   const tfc = event.recipes.tfc
   const shaped = event.recipes.minecraft.crafting_shaped
@@ -1070,14 +1076,18 @@ let recipeAdd = (/** @type {Internal.RecipesEventJS} */ event) => {
     .duration(40)
     .EUt(LV)
 
-    event.custom({
-      type: "createaddition:rolling",
-      input: {
-        tag: "forge:ingots/wrought_iron",
-      },
-      result: {
-        item: "gtceu:wrought_iron_rod",
-        count: 2,
-      }
+    rollable_ingots.forEach((ingot) => {
+      event.recipes.create.pressing(`gtceu:${ingot}_plate`, `#forge:ingots/${ingot}`)
+      
+      event.custom({
+        type: "createaddition:rolling",
+        input: {
+          tag: `forge:ingots/${ingot}`,
+        },
+        result: {
+          item: `gtceu:${ingot}_rod`,
+          count: 2,
+        }
+      })
     })
 }
