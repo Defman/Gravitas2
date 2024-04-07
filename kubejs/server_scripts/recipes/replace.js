@@ -157,6 +157,7 @@ let replaceRecipes = (/** @type {Internal.RecipesEventJS} */ event) => {
     modifiedResult = Item.of(modifiedResult, 3)
     r.results(modifiedResult)
   })
+  
 
   //Firmalife
   event.replaceInput({ mod: "firmalife"}, "firmalife:metal/ingot/chromium", "gtceu:chromium_ingot" )
